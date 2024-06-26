@@ -1,0 +1,49 @@
+/* Styling for the About page of SCHOENEN DIS LLP */
+
+.about-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .about-page p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .about-page ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .about-page ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .about-page {
+      padding: 15px;
+    }
+    
+    .about-page h1 {
+      font-size: 2rem;
+    }
+    
+    .about-page p {
+      font-size: 1rem;
+    }
+  }
+  
