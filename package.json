@@ -5,10 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "node server.js",
-    "serve": "nodemon server.js",
-    "client": "npm run dev --prefix ./client",
-    "start": "concurrently \"npm run dev\" \"npm run client\"",
-    "build":"npm i"
+    "start": "node server.js",
+    "build": "npm i"
   },
   "keywords": [],
   "author": "Ashwin",
